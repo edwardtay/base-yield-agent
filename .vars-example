@@ -1,0 +1,9 @@
+# AI Provider Configuration
+AI_PROVIDER=openai
+MODEL_ID=gpt-4o
+AI_PROVIDER_API_KEY=your_api_key_here
+
+# Alternative: Use Anthropic
+# AI_PROVIDER=anthropic
+# MODEL_ID=claude-3-sonnet-20241022
+# AI_PROVIDER_API_KEY=your_anthropic_key_here

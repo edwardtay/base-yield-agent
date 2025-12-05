@@ -1,0 +1,52 @@
+{
+	"mcpServers": {
+		"mcp-template": {
+			"source": "github:null-shot/typescript-mcp-template",
+			"description": "Template MCP server for basic functionality"
+		},
+		"defi-data": {
+			"comment": "TODO: Create DeFi data aggregation MCP server",
+			"description": "Aggregates DeFi protocol data (yields, TVL, APY) from multiple sources",
+			"tools": [
+				"getProtocolYields",
+				"compareProtocols",
+				"getHistoricalAPY",
+				"getTVLData",
+				"getProtocolRisks"
+			]
+		},
+		"blockchain-rpc": {
+			"comment": "TODO: Create blockchain RPC MCP server",
+			"description": "Advanced blockchain interactions and transaction management",
+			"tools": [
+				"executeTransaction",
+				"simulateTransaction",
+				"getContractState",
+				"watchEvents",
+				"batchCalls"
+			]
+		},
+		"agent-coordinator": {
+			"comment": "TODO: Create agent coordination MCP server",
+			"description": "Enables agent-to-agent communication and task delegation",
+			"tools": [
+				"registerAgent",
+				"discoverAgents",
+				"delegateTask",
+				"sendMessage",
+				"coordinateWorkflow"
+			]
+		},
+		"cross-chain": {
+			"comment": "TODO: Create cross-chain messaging MCP server",
+			"description": "Cross-chain asset bridging and messaging",
+			"tools": [
+				"bridgeAssets",
+				"sendCrossChainMessage",
+				"getChainStatus",
+				"estimateBridgeFee",
+				"trackCrossChainTx"
+			]
+		}
+	}
+}
